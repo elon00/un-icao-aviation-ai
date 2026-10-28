@@ -1,0 +1,13 @@
+[package]
+name = "un_icao_aviation_ai"
+version = "0.1.0"
+edition = "2021"
+description = "ICAO AeroLedger AI: CORSIA Aviation Carbon Offset Verification, Flight Crew License Validation and Air Navigation Safety Logs"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
